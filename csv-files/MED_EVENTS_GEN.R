@@ -6,12 +6,7 @@ library(this.path)
 setwd(this.path::this.dir())
 
 # Define the file path (saved in the script's directory inside "csv-files")
-current_dir <- file.path(getwd(), "csv-files")
-
-# Ensure the directory exists
-if (!dir.exists(current_dir)) {
-  dir.create(current_dir)
-}
+current_dir <- getwd()
 
 # Define the file name
 file_name <- "med_events.csv"
