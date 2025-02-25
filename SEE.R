@@ -166,8 +166,8 @@ see_assumption <- function(arg1) {
   pp
 }
 
-med_a <- See("medA")
-med_b <- See("medB")
+med_a <- see("medA")
+med_b <- see("medB")
 
 see_assumption(med_a)
 see_assumption(med_b)
